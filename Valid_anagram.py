@@ -37,7 +37,7 @@ def valid_anagram(str1,str2):
         if value!=0:
             return False
     return True
-'''If its mixed case just [0]*58 and -ord("A")
+'''If its mixed case just [0]*58 and -ord("A") --> 58 because between Z and a theres other things 
 theres six wasted slots.
 Alternative is to use if/else and check if its lower or upper. Then subtract A or a accordingly then add 26 to the lower values'''
 
