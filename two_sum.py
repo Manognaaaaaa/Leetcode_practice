@@ -1,3 +1,9 @@
+
+'''
+Time Complexity --> o(n)
+Space Complexity --> o(n)
+
+'''
 def two_sum(lst, target):
     seen = {}
     for i, x in enumerate(lst):
